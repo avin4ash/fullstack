@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>handling graphics</title>
+    </head>
+    <body>
+        <canvas id="mycanvas" height="100" width="200" style="border:1px solid black" ></canvas>
+        <script>
+            var a=document.getElementById("mycanvas");
+            ctx=a.getContext("2d");
+            ctx.moveTo(0,0);
+            ctx.arc(50,30,30,1000,2*Math.PI);
+            ctx.stroke();
+             
+        </script>
+    </body>
+</html>

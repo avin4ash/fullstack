@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORM</title>
+    </head>
+    <body>
+        <style>
+            table,td,tr{
+                border-collapse:collapse;
+                padding:5px;
+                
+            }
+            h1{
+                text-align: center;
+                font-size: 50px;
+            }
+            #inner{
+                background-color: darkgray;
+            }
+            .full{
+                background-color: dimgrey;
+            }
+            
+        </style>
+        <div class="outer" id="full">
+        <h1>STUDENT FORM</h1>
+        <div class="inner" id="full">
+        <form>
+            <center>
+            <table>
+            <tr>
+            <td><label for="name">NAME</label></td>
+            <td><input type="text" name="name" id="one" placeholder="enter your full name"><br></td>
+            </tr>
+            
+            <tr>
+            <td><label for="date">DOB</label></td>
+            <td><input type="date" name="date" id="one"><br></td>
+            </tr>
+
+            <tr>
+            <td><label for="age">AGE</label></td>
+            <td><input type="number" name="age" id="one" placeholder="enter your age"><br></td>
+            </tr>
+            
+            <tr>
+            <td><label for="phno">CONTACT NUMBER</label></td>
+            <td><input type="tel" name="phno" id="one" placeholder="enter your phone number"><br></td>
+            </tr>
+            
+            <tr>
+            <td><label for="color">FAVORITE COLOR</label></td>
+            <td><input type="color" name="color" id="one"><br></td>
+            </tr>
+
+            <tr>
+            <td><label for="email">EMAIL</label></td>
+            <td><input type="email" name="email" id="one" placeholder="enter your email"><br></td>
+            </tr>
+
+            <tr>
+            <td><label for="gender">GENDER</label></td>
+            <td><label for="male">Male</label>
+            <input type="radio" name="gender" value="male" id="one">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" value="female" id="one">
+            <label for="others">others</label>
+            <input type="radio" name="gender" value="others" id="one"><br></td>
+            </tr>
+
+            <tr>
+            <td><label for="skills">SKILLS</label></td>
+            <td><label for="python">python</label>
+            <input type="checkbox" name="skills" value="python" id="one">
+            <label for="java">java</label>
+            <input type="checkbox" name="skills" value="java" id="one">
+            <label for="html">html</label>
+            <input type="checkbox" name="skills" value="html" id="one">
+            <label for="css">css</label>
+            <input type="checkbox" name="skills" value="css" id="one">
+            <label for="sql">sql</label>
+            <input type="checkbox" name="skills" value="sql" id="one"><br></td>
+            </tr>
+
+            <tr>
+            <td><label for="comment">COMMENT</label></td>
+            <td><textarea rows="4" cols="50" name="comment" id="one" placeholder="enter your text here...."></textarea><br></td>
+            </tr>
+
+            <tr>
+            <td><input type="reset" id="one"></td>
+
+            <td><input type="submit" id="one"></td>
+            </tr>
+            </table>
+            </center>  
+        </form>
+        </div>
+    </div>    
+    </body>
+</html>

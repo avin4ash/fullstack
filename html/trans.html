@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>transformation</title>
+    </head>
+    <body>
+        <style>
+            .box-rotate:hover{
+                background-color: burlywood;
+                transform: rotate(20deg);
+            }
+            .box-pad:hover{
+                background-color: burlywood;
+                transform: scale(1.1,1.1);
+            }
+            .box-translate:hover{
+                transform: translate(50px,20px);
+            }
+            .harish{
+                height: 200px;
+                width: 200px;
+                border:1px solid black;
+                margin: 4px;
+                
+                
+            }
+            .box-skew:hover{
+                transform: skew(150deg);
+            }
+
+            #one{
+                background-color: brown;
+            }
+            #two{
+                background-color: blueviolet;
+            }
+            #three{
+                background-color: cadetblue;
+            }
+            #four{
+                background-color: crimson;
+            }
+            .box-pad{
+                padding: 10px;
+            }
+            .rad{
+                border-radius: 3px;
+    
+            }
+
+
+        </style>
+        <div class="box-rotate harish" id="one">
+
+        </div>
+        <div class="box-scale harish rad" id="two">
+            <img src="../image/ajay.jpg" width="80%" height="50%" class="box-pad">
+
+        </div>
+        <div class="box-skew harish" id="three">
+
+        </div>
+        <div class="box-translate harish" id="four">
+
+        </div>
+        
+    </body>
+</html>

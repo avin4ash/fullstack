@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORM</title>
+    </head>
+    <body>
+        <style>
+            .width{
+                grid-column: span 2;
+            }
+            form{
+                display:flex;
+            }
+
+        </style>
+
+
+        <div id="full">
+            <form>
+                <div class="width">
+                <div class="left" id="full">
+                    <label for="Name">NAME</label>
+                </div>
+                <div class="right" id="full">
+                    <input type="text" name="name" placeholder="enter your name">
+                </div></div>
+
+                <div class="width">
+                <div class="left" id="full">
+                    <label for="dob">DOB</label>
+                </div>
+                <div class="right" id="full">
+                    <input type="date" name="dob">
+                </div></div>
+
+
+                <div class="width>">
+                <div class="left" id="full">
+                    <label for="gender">GENDER</label>
+                </div>
+                <div class="right" id="full">
+                    <input type="radio" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" value="transgender">
+                    <label for="transgender">Transgender</label>
+                </div></div>
+
+                <div class="width">
+                    <div class="left" id="full">
+                        <label for="phone number">PHONE NUMBER</label>
+                    </div>
+                    <div class="right" id="full">
+                        <input type="tel" name="phone number" placeholder="enter the phone number">
+                    </div></div>
+
+                <div class="width">
+                    <div class="left" id="full">
+                        <label for="email">EMAIL</label>
+                    </div>
+                    <div class="right" id="full">
+                        <input type="email" name="email" placeholder="enter your email">
+                    </div></div>
+
+                <div clas="width">
+                <div class="left" id="full">
+                    <label for="skills">SKILLS</label>
+                </div>
+                <div class="right" id="full">
+                    <input type="checkbox" name="skills" value="c">
+                    <label for="c">C</label>
+                    <input type="checkbox" name="skills" value="c++">
+                    <label for="c++">C++</label>
+                    <input type="checkbox" name="skills" value="java">
+                    <label for="java">Java</label>
+                    <input type="checkbox" name="skills" value="python">
+                    <label for="python">Python</label>
+                </div></div>
+
+                <div clas="width">
+                <div class="left" id="full">
+                    <label for="role">ROLE</label>
+                </div>
+                <div class="right" id="full">
+                    <select id="role" name="role">
+                        <option value="Developer">DEVELOPER</option>
+                        <option value="Data Analyst">DATA ANALYST</option>
+                        <option value="ui developer">UI DEVELOPER</option>
+                        <option value="network engineer">NETWORK ENGINEER</option>
+                    </select>
+                </div></div>
+
+                <div clas="width">
+                <div class="lower" id="full">
+                    <input type="checkbox" name="acknowledgement">
+                    <label for="acknowledgement">The above details are valid and given by me</label>
+                </div></div>
+
+                <div clas="width"><div class="lower" id="full">
+                    <input type="reset" name="submit" value="clear all">
+                    <input type="submit" name="submit" value="submit response">
+                </div></div>
+            </form>
+        </div>
+    </body>
+</html>

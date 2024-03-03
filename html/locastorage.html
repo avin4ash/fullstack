@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            localstorage
+        </title>
+    </head>
+    <body>
+        <p id="one"></p>
+        <p id="two"></p>
+        <p id="three"></p>
+        <p id="four"></p>
+        <p id="five"></p>
+        <p id="six"></p>
+        <p id="seven"></p>
+        <p id="eight"></p>
+        <p id="nine"></p>
+        
+
+        <script>
+            localStorage.clear();
+            
+            var a={
+                'name':'Avinash k',
+                'Dob':'25/02/2003',
+                'age':21,
+                'Gender':'Male',
+                'phonenumber':6374828367,
+                'Nationality':'Indian',
+                'BloodGroup':'O+ve',
+                'Qualification':'B.Tech-IT',
+                'Location':'Chennai'
+            }
+            localStorage.setItem('Info personal',JSON.stringify(a));
+            var b=document.getElementById('one');
+            var c=document.getElementById('two');
+            var d=document.getElementById('three');
+            var e=document.getElementById('four');
+            var f=document.getElementById('five');
+            var g=document.getElementById('six');
+            var h=document.getElementById('seven');
+            var i=document.getElementById('eight');
+            var j=document.getElementById('nine');
+
+            var x=JSON.parse(localStorage.getItem('Info personal'));
+            
+            b.innerHTML="name : "+x.name
+            c.innerHTML=x.Dob
+            d.innerHTML=x.age
+            e.innerHTML=x.Gender
+            f.innerHTML=x.phonenumber
+            g.innerHTML=x.Nationality
+            h.innerHTML=x.BloodGroup
+            i.innerHTML=x.Qualification
+            j.innerHTML=x.Location
+            
+
+        </script>
+    </body>
+</html>

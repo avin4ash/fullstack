@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>web storage</title>
+    </head>
+    <body>
+        <p id="avi"></p>
+        <p id="two"></p>
+        <p id="three"></p>
+        <script>
+          
+
+            localStorage.setItem('avinash','developer');
+            localStorage.setItem('ajay','uideveloper');
+            localStorage.setItem('sanjay','pythondeveloper');
+
+            var a=document.getElementById("avi");
+            var b=document.getElementById("two");
+            var c=document.getElementById("three");
+
+            a.innerHTML=localStorage.getItem('avinash');
+            b.innerHTML=localStorage.getItem('ajay');
+            c.innerHTML=localStorage.getItem('sanjay');
+            
+        </script>
+    </body>
+</html>

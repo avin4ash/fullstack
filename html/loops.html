@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops</title>
+</head>
+<body>
+    <p id="one"></p>
+    <script>
+        const a={
+            'name':'avinash',
+            'Reg. No.':40120014,
+            'age':21,
+            'gender':'male',
+            'Mobile':6374828367,
+            'Nationality':'indian',
+            'Blood Group':'O+ve',
+            'Degree':'B.Tech',
+            'Department':'IT',
+            'Location':'chennai'
+        }
+        let txt=''
+
+        for(let k in a){
+            console.log(a[k]);
+            txt += k + ":" + a[k] + '<br>';
+
+
+        }
+        var x = document.getElementById("one");
+        x.innerHTML=txt;
+        console.log(txt);
+
+        const num=[1,2,3,4,5,6];
+        num.push(7);
+        console.log(num);
+    </script>
+    
+</body>
+</html>
