@@ -1,0 +1,189 @@
+HTML 
+* What is HTML
+    * it is used to create web pages by providing content and structure 
+* Why we use doctype
+    * to mention the latest html version
+What is meta
+    * it contain info about the web page such as viewport, responsiveness
+Why use view-port
+    * to mention the size of the web page to make responsive website
+How to achieve responsive using meta
+    *by mentioning viewport(width, initial scale) in meta
+How to use CSS and JS file in HTML
+    * linking using relative or absolute path. css in header, js in script
+Why use title tag
+    *to display the title in the browser's title bar
+How to show page title
+    *using title tag
+What is tittle tag
+    * to display the title of the web page
+Tags what, how
+    *what-to display the element
+    *how-writing the element between opening and closing tag
+Element what, how
+    *what-content to be displayed on web page
+    *how-by writing it between tagsf
+Difference  between tag and element
+    *tag used to define element
+    *element is constructed as opening tsg content closing tag
+Attributes what, why, how
+    *what-properties of element*
+    *why-styling nd accesing
+    *how-include them in the opening tag of its element
+HTML 5 features
+    *new elements such as <footer><nav>, audio video support, form elements such as url,tel,date,etc
+What is block level and inline element
+    *block-takes full width
+    *inline-takes necessary width
+Why block level and inline element
+    *block level is used to diply larger paragarph, while inline is used between the block level to do some styling
+How block level and inline element
+    *inline element cnnot contain block level but can contain another inline
+Tell some HTML5 tags
+    *header, footer, aside, main, nav
+Semantic what, why, tell
+    *semantic tags covey meaning about the content
+    *clarity in structuring the webpage
+How achieve list
+    *using <li>
+Why need list
+    *presenting content in structured format
+Types of list
+    *ordered, unordered
+Heading tags what, why, how, types
+    *h1-h6
+    *to display different size of heding nad sub headings
+    *using any tags between h1-h6
+    *h1-h6
+Div tag what, why, how
+    *block level element
+    *to make a box or container
+    *using<div></div>
+Image tag what, why, how
+    *to mention the element type is image
+    *to display the image
+    *how-<img>
+Formatting tag what, why, how
+    *i,strong,u,b,em,sup,sub etc.,
+    *to style the element
+    *writing the content to be styled in between the opening and closing tag of anything such as i,b,em,sup,sub etc.,
+Differnce between Bold and Strong, i and em
+    *bold-to make the text bold
+    *i-mke it italic
+    *strong-displyed bold and purpose is to emphasis its symantic importance
+    *em-displyed italic and purpose is to emphasis its symantic importance
+Input types,what, why, how
+    *specifies type of data that can be written in an input field
+    *used to get different type of data in an form
+    *<input type="...">
+Form what, why, how and attributes
+    *form is used to submitting the data
+    *using <form></form> tags
+    *action,method,name
+Web storage what, why, how
+    *to store data locally, provided by web browsers
+    *to store data locally
+    *using setItem,getItem
+WebWorks what, why, how
+    *to run scripts in the Background
+    *writing the worker in script between the script tags or in js file
+Canvas what, why, how
+    *it is an element to create a graphic
+    *created using <canvas></canvas>
+    *accessed using jvascript
+SVG what, why, how
+    *scalable vector graphics
+    *to describe  two dimensional graphics
+    *using <svg> tag or using external abc.svg file
+
+
+CSS
+
+CSS what, why, version, types
+    *cascading style sheets
+    *to style the html elements
+    *css3 is the latest version
+    *types-inline,internal,external
+Selectors what, why, how, types
+    *to selcet the elements
+    *types-elemet,clss,id etc.,
+    * , . p etc
+Global selector what, why, how
+    *it selects all elements in the page
+    *using *
+Difference between pseudo element and class, types, why, where
+    *class-for applying styles to an element based on its state
+    *element-to style specific parts of an element
+    *types: class-:hover,:active,:visited  element-::before,::after,::first-line,::first-letter
+    *why-to enhance the interactivity of the web page
+Box model what, why, how, where
+    *content,padding, border, margin
+    *why-to design the layout
+    *(pading or margin)-(top or right or left or bottom):4px,  border=1px solid black;
+Difference between display and visibility
+    *display-it specifies the rendering behaviour. eg display:block or inline or inline-block or flex etc.,
+    *visibility-it determines whether the element is visible or hidden without afftecting the layout(still occcupies space even if it is hidden)
+Positions what, why, how,types and difference
+    *what-used to specify the position of an element 
+    *types-static-normal,relative,absolute,fixed,sticky
+    *we can use top right,left,bottom = ... to manipulate the positions
+Z-index what, why, how, where
+    *it is used in the overlaped elements
+    *z-index:1 or 0
+!important what, why, how
+    *to override other
+    *how-p{
+        color:blue !important;
+    }
+Units what, why, how and difference
+    *measurement of various properties such as length, width, margin, size
+    *px(pixels),pt(points),in(inches),%(percentage),em,rem,deg(angle)
+Box sizing what, why, how
+    *to control hright and width of an element
+    *content-box:if padding is added the overall height,width will increase
+    *border-box:if padding is added the overall height,width will not increase
+    *a{
+        box-sizing:content-box;
+        box-sizing:border-box;
+    }
+Flex what, why, how, properties
+    *used to allign the elements in the same line
+    *how- a{
+        display:flex;
+    }
+    *justify-content,align-items,align-content,space-inbetween
+Media query what, why, how, types 
+    *to make the webpage responsive in all type of display sizes
+    *@media media-type and (media-feature){}
+Variables what, why, how
+    *to reuse the values throughout the style sheets
+    *displayed in *{}
+Center a div how, types
+    *to allign the div at the Center
+    *using flex and allign-items:Center
+    *using position
+    *using Grid
+    *using margin
+Path
+    *to specify the path of the externl file and link it
+    *absolute and relative
+Background how
+    *background-color:black; , background-image:url(path);
+Transition what, why, how, types
+    *it is used to create a animation effects
+    *types-scale,rotate,translate,skew
+    *transform:translate or skew or scale or rotate(units)
+
+Bootstrap
+
+Bootstrap what, why, version,difference
+    *framework for css
+    *used to style using class in Bootstrap
+    *latest version-Bootstrap 5.3
+    *difference-icons are added
+Grid what, why, how
+    *to create layouts with rows and columns
+    *display:grid; 
+container and container-fluid difference
+    *it is a container that adjust its width based on the screen using mediaquery
+    *container-fluid occupies the full width
