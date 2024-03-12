@@ -166,7 +166,7 @@ Center a div how, types
     *using margin
 Path
     *to specify the path of the externl file and link it
-    *absolute and relative
+    *absolute and relative.
 Background how
     *background-color:black; , background-image:url(path);
 Transition what, why, how, types
